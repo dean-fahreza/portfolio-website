@@ -23,4 +23,4 @@ If you are developing a production application, we recommend using TypeScript wi
 yarn install
 yarn run dev
 ```
-an then all dependencies in this repo installed on your file.
+and then all dependencies in this repo installed on your file.
