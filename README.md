@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 ## How to install this repository to your local computer?
-* Install the zip file or clone this repository to your local computer.
+* Install this zip repo file or clone this repository to your local computer.
 * Make sure your computer had installed [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/) packages.
 * After this repo already on your local computer, install all packages with yarn, and run it to your local computer.
 
