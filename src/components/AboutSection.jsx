@@ -29,7 +29,7 @@ export const AboutSection = () => {
                             <a href="#contact" className="cosmic-button">
                                 Get in touch
                             </a>
-                            <a href="" className={cn('px-6 py-2 rounded-full border border-primary',
+                            <a href="/CV_Muhammad Dean Fahrerza.pdf" className={cn('px-6 py-2 rounded-full border border-primary',
                                 'hover:bg-primary/10 transition-colors duration-300'
                             )}>
                                 Download CV
