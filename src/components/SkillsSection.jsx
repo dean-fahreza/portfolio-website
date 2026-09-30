@@ -3,14 +3,20 @@ import { useState } from 'react';
 
 const skills = [
     // frontend
-    {name: 'React JS', level: 65, category:'frontend'},
+    {name: 'React JS', level: 70, category:'frontend'},
+    {name: 'Tailwind CSS', level: 65, category: 'frontend'},
 
     // backend
     {name: 'Python', level: 78, category: 'backend'},
+  { name: 'JavaScript', level: 75, category: 'backend' },
+    { name: 'Golang', level: 70, category: 'backend' },
 
     // tools
-    {name: 'VS Codium', level: 85, category: 'tools'},
-    {name: 'Git', level: 80, category: 'tools'},
+  { name: 'VS Codium', level: 85, category: 'tools' },
+    { name: 'Zed', level: 80, category: 'tools' },
+  { name: 'Git', level: 80, category: 'tools' },
+  { name: 'SQL', level: 85, category: 'tools' },
+  { name: 'Spreadsheet', level: 83, category: 'tools' },
 
     //  OS
     {name: 'Windows', level: 90, category: 'OS'},
@@ -22,7 +28,7 @@ const categories = ['all', 'frontend', 'backend', 'tools', 'OS'];
 export const SkillsSection = () => {
 
     const [activeCategory, setActiveCategory] = useState('all');
-    const filteredSkills = skills.filter((skill) => activeCategory === 'all' 
+    const filteredSkills = skills.filter((skill) => activeCategory === 'all'
     || skill.category === activeCategory);
 
     return (
@@ -35,9 +41,9 @@ export const SkillsSection = () => {
                 <div className='flex flex-wrap justify-center gap-4 mb-12'>
                     {categories.map((category, key) => (
                         <button key={key} className={cn('px-5 py-2 rounded-full transition-colors duration-300',
-                            'capitalize', activeCategory === category 
-                            ? 'bg-primary text-primary-foreground' 
-                            : 'bg-secondary/70 text-foreground hover:bg-secondary')} 
+                            'capitalize', activeCategory === category
+                            ? 'bg-primary text-primary-foreground'
+                            : 'bg-secondary/70 text-foreground hover:bg-secondary')}
                             onClick={() => setActiveCategory(category)}>
                             {category}
                         </button>
