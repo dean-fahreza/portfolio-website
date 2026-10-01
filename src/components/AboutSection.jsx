@@ -1,5 +1,5 @@
 import { cn } from '@/lib/utils';
-import { Briefcase, Code, User } from 'lucide-react';
+import { Briefcase, Code, Monitor, MonitorCog, User } from 'lucide-react';
 
 export const AboutSection = () => {
     return (
@@ -15,13 +15,13 @@ export const AboutSection = () => {
                         {/* left section */}
                         <h3 className="text-2xl font-semibold">Long life learner</h3>
                         <p className="text-muted-foreground">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam, 
-                            mollitia ad molestiae adipisci earum voluptas molestias culpa dolorem beatae hic 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam,
+                            mollitia ad molestiae adipisci earum voluptas molestias culpa dolorem beatae hic
                             accusantium doloremque quod quisquam minima quae corrupti nihil iure.
                         </p>
                         <p className="text-muted-foreground">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam, 
-                            mollitia ad molestiae adipisci earum voluptas molestias culpa dolorem beatae hic 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nam,
+                            mollitia ad molestiae adipisci earum voluptas molestias culpa dolorem beatae hic
                             accusantium doloremque quod quisquam minima quae corrupti nihil iure.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -29,7 +29,10 @@ export const AboutSection = () => {
                             <a href="#contact" className="cosmic-button">
                                 Get in touch
                             </a>
-                            <a href="/CV_Muhammad Dean Fahrerza.pdf" className={cn('px-6 py-2 rounded-full border border-primary',
+                            <a href="
+                            https://drive.google.com/file/d/1QUSjAQcJ7H9RNkHhptslsGkIsmPLNnKg/view?usp=sharing"
+                            target="_blank"
+                            className={cn('px-6 py-2 rounded-full border border-primary',
                                 'hover:bg-primary/10 transition-colors duration-300'
                             )}>
                                 Download CV
@@ -41,13 +44,13 @@ export const AboutSection = () => {
                         <div className='gradient-border p-6 card-hover'>
                             <div className='flex items-start gap-4'>
                                 <div className='p-3 rounded-full bg-primary/10'>
-                                    < Code className='w-6 h-6 text-primary'/>
+                                    < Monitor className='w-6 h-6 text-primary'/>
                                 </div>
                                 <div className='text-left'>
                                     <h4 className='font-semibold text-lg'>Lorem ipsum dolor sit amet.</h4>
                                     <p className='text-muted-foreground'>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eum. 
-                                        Molestiae repellat eos vel laborum corrupti fuga provident, nulla quo 
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eum.
+                                        Molestiae repellat eos vel laborum corrupti fuga provident, nulla quo
                                         cum facilis sed veniam atque!
                                     </p>
                                 </div>
@@ -61,8 +64,8 @@ export const AboutSection = () => {
                                 <div className='text-left'>
                                     <h4 className='font-semibold text-lg'>Lorem ipsum dolor sit amet.</h4>
                                     <p className='text-muted-foreground'>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eum. 
-                                        Molestiae repellat eos vel laborum corrupti fuga provident, nulla quo 
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eum.
+                                        Molestiae repellat eos vel laborum corrupti fuga provident, nulla quo
                                         cum facilis sed veniam atque!
                                     </p>
                                 </div>
@@ -76,8 +79,8 @@ export const AboutSection = () => {
                                 <div className='text-left'>
                                     <h4 className='font-semibold text-lg'>Lorem ipsum dolor sit amet.</h4>
                                     <p className='text-muted-foreground'>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eum. 
-                                        Molestiae repellat eos vel laborum corrupti fuga provident, nulla quo 
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eum.
+                                        Molestiae repellat eos vel laborum corrupti fuga provident, nulla quo
                                         cum facilis sed veniam atque!
                                     </p>
                                 </div>

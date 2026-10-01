@@ -21,6 +21,9 @@ export const ProjectsSection = () => {
       <section id="projects" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl font-bold mb-4 md:text-4xl text-center">Featured <span className="text-primary">Projects</span></h2>
+        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+          Explore some of my featured projects.
+        </p>
       </div>
       </section>
     );
